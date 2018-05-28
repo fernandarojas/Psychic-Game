@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Psychic Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" src="../Psychic-Game/assets/css/style.css">
+</head>
+
+<body>
+        <div class="container-fluid">
+            <div class="jumbotron jumbotron-fluid">
+                <h1 class="display-3 ml-1">The Psychic Game</h1>
+                <p class="lead ml-3">Guess what letter I am thinking of...</p> 
+                <p class="lead" id="statusText"></p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 text-right"> <h4>Guesses Remaining:</h4> </div>
+                    <div class="col-6"> <h4 id="userGuessText"></h4></div> 
+                </div>
+                <div class="row">
+                    <div class="col-6 text-right"> <h4>Guessed Letters:</h4> </div>
+                    <div class="col-6"> <h4 id="guessedLettersText"></h4></div> 
+                </div>
+                <div class="row">
+                    <div class="col-6 text-right"> <h4>Wins:</h4> </div>
+                    <div class="col-6"> <h4 id="winsText"></h4></div> 
+                </div>
+                <div class="row">
+                    <div class="col-6 text-right"> <h4>Losses:</h4> </div>
+                    <div class="col-6"> <h4 id="lossesText"></h4></div> 
+                </div>
+            </div>
+        </div>
+   
+
+</body>
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"></script>
+
+</html>
